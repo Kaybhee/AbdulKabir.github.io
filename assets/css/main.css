@@ -33,6 +33,12 @@ body {
 	line-height: 1;
 }
 
+.rounded-image {
+    border-radius: 50%; /* This makes the image circular */
+    width: 300px; /* Adjust this to fit your design */
+    height: 300px; /* Adjust this to fit your design */
+    object-fit: cover; /* This ensures the image covers the entire space */
+}
 ol, ul {
 	list-style: none;
 }
